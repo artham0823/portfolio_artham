@@ -1,11 +1,442 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id" data-lang="id">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Artham | Portfolio</title>
+    <meta name="description" content="Portfolio Artham — Web Developer, Game Enthusiast, Creative Student">
+    <link rel="stylesheet" href="assets/css/style1.css">
 </head>
+
 <body>
-    
+
+    <!-- ===== NAVBAR ===== -->
+    <nav>
+        <div class="logo">Artham</div>
+
+        <div class="hamburger" aria-label="Menu">
+            <span></span><span></span><span></span>
+        </div>
+
+        <ul>
+            <li><a href="#home" id="nav-home">Home</a></li>
+            <li><a href="#about" id="nav-about">About</a></li>
+            <li><a href="#skills" id="nav-skills">Skills</a></li>
+            <li><a href="#projects" id="nav-projects">Projects</a></li>
+            <li><a href="#contact" id="nav-contact">Contact</a></li>
+        </ul>
+
+        <div class="nav-right">
+            <button class="lang-toggle" id="lang-btn">🇯🇵 日本語</button>
+            <a href="login.php" class="login-btn">Login</a>
+        </div>
+    </nav>
+
+    <!-- ===== HERO ===== -->
+    <section id="home" class="section-hero">
+        <div class="hero-bg-glow"></div>
+        <div class="hero-wrapper">
+            <div class="hero-floating-badges">
+                <span class="hero-badge">&lt;html/&gt;</span>
+                <span class="hero-badge">{CSS}</span>
+                <span class="hero-badge">JS ⚡</span>
+                <span class="hero-badge">PHP 🐘</span>
+            </div>
+
+            <div class="profile-container reveal-item">
+                <div class="profile-glow"></div>
+                <img src="assets/img/me.jpg" alt="Profile Artham" class="profile-pic">
+            </div>
+
+            <div class="hero-content reveal-item">
+                <div class="hero-accent-line"></div>
+                <p class="intro" id="hero-intro">HELLO, I'M</p>
+                <h1 class="glow-text">ARTHAM</h1>
+                <h2 class="typing-text"></h2>
+                <p class="hero-desc" id="hero-desc">
+                    My name is Nurotul Ikrimah, i build interactive websites and dream of creating my own games someday.
+                    Currently learning and growing every single day.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary-btn" id="btn-projects">See My Projects</a>
+                    <a href="#contact" class="btn outline-btn" id="btn-contact">Contact Me</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="chevron"></div>
+        </div>
+    </section>
+
+    <!-- ===== ABOUT ME ===== -->
+    <section id="about">
+        <h2 class="section-title reveal-item" id="title-about">ABOUT ME</h2>
+        <p class="section-subtitle reveal-item">Hover the gallery circle to explore!</p>
+
+        <div class="about-container">
+
+            <div class="cards-row cards-portrait reveal-item">
+                <div class="photo-card-3d">
+                    <div class="photo-card-inner">
+                        <img src="assets/img/p1.jpg" alt="Photo 1">
+                        <div class="card-overlay">Memory 1</div>
+                    </div>
+                </div>
+                <div class="photo-card-3d">
+                    <div class="photo-card-inner">
+                        <img src="assets/img/p2.jpg" alt="Photo 2">
+                        <div class="card-overlay">Memory 2</div>
+                    </div>
+                </div>
+                <div class="photo-card-3d">
+                    <div class="photo-card-inner">
+                        <img src="assets/img/p3.jpg" alt="Photo 3">
+                        <div class="card-overlay">Memory 3</div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="gallery-center reveal-item">
+                <div class="about-text-top">
+                    <p id="about-desc">Hover a photo to see my description!</p>
+                </div>
+
+                <div class="gallery">
+                    <div class="img-wrapper">
+                        <img src="assets/img/1.jpeg" alt="Partner">
+                        <img src="assets/img/3.jpeg" alt="Spot-fav">
+                        <img src="assets/img/2.jpeg" alt="Alhaitham">
+                        <img src="assets/img/me1.jpeg" alt="NPC">
+                    </div>
+                </div>
+
+                <div class="about-text-bottom">
+                    <p id="about-bottom-text">I'm Artham — a student passionate about web development and gaming. I love
+                        learning new things and turning creative ideas into real projects.</p>
+                </div>
+            </div>
+
+
+            <div class="cards-row cards-landscape reveal-item">
+                <div class="photo-card-3d">
+                    <div class="photo-card-inner">
+                        <img src="assets/img/l1.jpg" alt="Landscape 1">
+                        <div class="card-overlay">Adventure 1</div>
+                    </div>
+                </div>
+                <div class="photo-card-3d">
+                    <div class="photo-card-inner">
+                        <img src="assets/img/l2.jpg" alt="Landscape 2">
+                        <div class="card-overlay">Adventure 2</div>
+                    </div>
+                </div>
+                <div class="photo-card-3d">
+                    <div class="photo-card-inner">
+                        <img src="assets/img/l3.jpg" alt="Landscape 3">
+                        <div class="card-overlay">Adventure 3</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="skills">
+        <h2 class="section-title reveal-item" id="title-skills">MY SKILLS</h2>
+        <p class="section-subtitle reveal-item" id="subtitle-skills">What I can do — hover to see details</p>
+
+        <div class="skills-grid">
+            <div class="skill-card reveal-item">
+                <div class="skill-content">
+                    <div class="skill-front">
+                        <div class="skill-icon">🌐</div>
+                        <h3>HTML Dasar</h3>
+                        <div class="skill-level">
+                            <span class="dot filled"></span>
+                            <span class="dot filled"></span>
+                            <span class="dot filled"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                        </div>
+                    </div>
+                    <div class="skill-back">
+                        <p>Memahami struktur semantik, form handling, dan dasar-dasar HTML untuk membangun halaman web.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-card reveal-item">
+                <div class="skill-content">
+                    <div class="skill-front">
+                        <div class="skill-icon">🎨</div>
+                        <h3>CSS Dasar</h3>
+                        <div class="skill-level">
+                            <span class="dot filled"></span>
+                            <span class="dot filled"></span>
+                            <span class="dot filled"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                        </div>
+                    </div>
+                    <div class="skill-back">
+                        <p>Belajar Flexbox, Grid, animasi sederhana, dan responsive design dasar.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-card reveal-item">
+                <div class="skill-content">
+                    <div class="skill-front">
+                        <div class="skill-icon">🐘</div>
+                        <h3>PHP Dasar</h3>
+                        <div class="skill-level">
+                            <span class="dot filled"></span>
+                            <span class="dot filled"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                        </div>
+                    </div>
+                    <div class="skill-back">
+                        <p>Memahami dasar PHP: variabel, form processing, session, dan koneksi database MySQL.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-card reveal-item">
+                <div class="skill-content">
+                    <div class="skill-front">
+                        <div class="skill-icon">🎬</div>
+                        <h3>CapCut / Editor</h3>
+                        <div class="skill-level">
+                            <span class="dot filled"></span>
+                            <span class="dot filled"></span>
+                            <span class="dot filled"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                        </div>
+                    </div>
+                    <div class="skill-back">
+                        <p>Editor video pemula menggunakan CapCut. Bisa membuat konten dengan transisi dan efek
+                            sederhana.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-card reveal-item">
+                <div class="skill-content">
+                    <div class="skill-front">
+                        <div class="skill-icon">✨</div>
+                        <h3>Alight Motion</h3>
+                        <div class="skill-level">
+                            <span class="dot filled"></span>
+                            <span class="dot filled"></span>
+                            <span class="dot filled"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                        </div>
+                    </div>
+                    <div class="skill-back">
+                        <p>Membuat animasi dan motion graphics sederhana untuk konten kreatif.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-card reveal-item">
+                <div class="skill-content">
+                    <div class="skill-front">
+                        <div class="skill-icon">🎮</div>
+                        <h3>Gamer</h3>
+                        <div class="skill-level">
+                            <span class="dot filled"></span>
+                            <span class="dot filled"></span>
+                            <span class="dot filled"></span>
+                            <span class="dot filled"></span>
+                            <span class="dot filled"></span>
+                        </div>
+                    </div>
+                    <div class="skill-back">
+                        <p>Passionate gamer — Genshin Impact, Honkai, dan banyak lagi. Gaming adalah sumber inspirasi
+                            kreativitas!</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Python -->
+            <div class="skill-card reveal-item">
+                <div class="skill-content">
+                    <div class="skill-front">
+                        <div class="skill-icon">🐍</div>
+                        <h3>Python Dasar</h3>
+                        <div class="skill-level">
+                            <span class="dot filled"></span>
+                            <span class="dot filled"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                        </div>
+                    </div>
+                    <div class="skill-back">
+                        <p>Memahami dasar Python: variabel, loop, fungsi, dan OOP sederhana untuk scripting dan
+                            automasi.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Figma -->
+            <div class="skill-card reveal-item">
+                <div class="skill-content">
+                    <div class="skill-front">
+                        <div class="skill-icon">🎯</div>
+                        <h3>Figma Dasar</h3>
+                        <div class="skill-level">
+                            <span class="dot filled"></span>
+                            <span class="dot filled"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                        </div>
+                    </div>
+                    <div class="skill-back">
+                        <p>Bisa membuat wireframe, mockup, dan prototyping sederhana menggunakan Figma untuk desain
+                            UI/UX.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Survival -->
+            <div class="skill-card reveal-item">
+                <div class="skill-content">
+                    <div class="skill-front">
+                        <div class="skill-icon">🏕️</div>
+                        <h3>Survival Dasar</h3>
+                        <div class="skill-level">
+                            <span class="dot filled"></span>
+                            <span class="dot filled"></span>
+                            <span class="dot filled"></span>
+                            <span class="dot filled"></span>
+                            <span class="dot"></span>
+                        </div>
+                    </div>
+                    <div class="skill-back">
+                        <p>Bisa survival outdoor: bikin api, shelter, navigasi alam, dan dasar-dasar bertahan hidup di
+                            alam liar! 🔥</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section id="projects">
+        <h2 class="section-title reveal-item" id="title-projects">PROJECTS</h2>
+        <p class="section-subtitle reveal-item" id="subtitle-projects">Things I have built and worked on</p>
+
+        <div class="projects-grid">
+            <div class="project-card reveal-item">
+                <div class="project-media">
+                    <img src="assets/img/p1.jpg" class="static-img" alt="Project 1">
+                </div>
+                <div class="project-info">
+                    <h3>Game Portfolio v1</h3>
+                    <p>Website interaktif bertema RPG dengan sistem leveling sederhana.</p>
+                    <div class="tags"><span>HTML</span> <span>CSS</span> <span>JS</span></div>
+                </div>
+            </div>
+
+            <div class="project-card reveal-item">
+                <div class="project-media">
+                    <img src="assets/img/l1.jpg" class="static-img" alt="Project 2">
+                </div>
+                <div class="project-info">
+                    <h3>Landing Page Artham</h3>
+                    <p>Desain minimalis untuk jasa pembuatan website landing page cepat.</p>
+                    <div class="tags"><span>UI/UX</span> <span>Slicing</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact">
+        <h2 class="section-title reveal-item" id="title-contact">CONTACT</h2>
+        <p class="section-subtitle reveal-item" id="subtitle-contact">Let's connect and collaborate</p>
+
+        <div class="contact-grid">
+            <div class="contact-info reveal-item">
+                <div class="contact-item">
+                    <div class="icon">📧</div>
+                    <div class="info">
+                        <h4>Email</h4>
+                        <p>artham@example.com</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="icon">📱</div>
+                    <div class="info">
+                        <h4>Instagram</h4>
+                        <p>@artham</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="icon">💬</div>
+                    <div class="info">
+                        <h4>Discord</h4>
+                        <p>artham#0000</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="icon">🎵</div>
+                    <div class="info">
+                        <h4>TikTok</h4>
+                        <p>@artham</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="icon">🐙</div>
+                    <div class="info">
+                        <h4>GitHub</h4>
+                        <p>@artham</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="icon">💭</div>
+                    <div class="info">
+                        <h4>WeChat / Line</h4>
+                        <p>artham_id</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-right reveal-item">
+                <div class="contact-qr">
+                    <p>📱 Scan for WhatsApp</p>
+                    <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://wa.me/6281234567890"
+                        alt="WhatsApp QR Code">
+                    <p>WhatsApp - Artham</p>
+                </div>
+
+                <div class="contact-cta">
+                    <h3 id="contact-cta-title">Want my CV?</h3>
+                    <p id="contact-cta-desc">Request my CV and I will review it. Once approved, you can download it
+                        directly.</p>
+                    <a href="request_cv.php" class="cv-btn" id="cv-btn-text">📄 Request CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <p id="footer-text">© 2026 Artham. All rights reserved.</p>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
 </body>
+
 </html>
