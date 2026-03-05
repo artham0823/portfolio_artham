@@ -867,11 +867,29 @@ section {
   border: 1px solid var(--border-glass);
   border-radius: 12px;
   transition: var(--transition);
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+}
+
+.contact-item::after {
+  content: '↗';
+  margin-left: auto;
+  font-size: 1.2rem;
+  color: var(--text-soft);
+  opacity: 0;
+  transform: translateX(-10px);
+  transition: var(--transition);
 }
 
 .contact-item:hover {
   background: rgba(255, 255, 255, 0.08);
   border-color: rgba(255, 255, 255, 0.12);
+}
+
+.contact-item:hover::after {
+  opacity: 1;
+  transform: translateX(0);
 }
 
 .contact-item .icon {
