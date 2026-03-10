@@ -60,7 +60,7 @@
         <h1 class="glow-text">ARTHAM</h1>
         <h2 class="typing-text"></h2>
         <p class="hero-desc" id="hero-desc">
-          My name is Nurotul Ikrimah, i build interactive websites and dream of creating my own games someday.
+          My name is ..., i build interactive websites and dream of creating my own games someday.
           Currently learning and growing every single day.
         </p>
         <div class="hero-buttons">
