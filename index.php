@@ -85,20 +85,20 @@
       <div class="cards-row cards-portrait reveal-item">
         <div class="photo-card-3d">
           <div class="photo-card-inner">
-            <img src="assets/img/p1.jpg" alt="Photo 1">
-            <div class="card-overlay">Memory 1</div>
+            <img src="assets/img/p1.jpeg" alt="Photo 1">
+            <div class="card-overlay">Lemongan</div>
           </div>
         </div>
         <div class="photo-card-3d">
           <div class="photo-card-inner">
-            <img src="assets/img/p2.jpg" alt="Photo 2">
-            <div class="card-overlay">Memory 2</div>
+            <img src="assets/img/p2.jpeg" alt="Photo 2">
+            <div class="card-overlay">Borobudur</div>
           </div>
         </div>
         <div class="photo-card-3d">
           <div class="photo-card-inner">
-            <img src="assets/img/p3.jpg" alt="Photo 3">
-            <div class="card-overlay">Memory 3</div>
+            <img src="assets/img/p3.jpeg" alt="Photo 3">
+            <div class="card-overlay">Heha Sky View</div>
           </div>
         </div>
       </div>
@@ -118,27 +118,29 @@
         </div>
 
         <div class="about-text-bottom">
-          <p id="about-bottom-text">I'm Artham — a student passionate about web development and gaming. I love learning new things and turning creative ideas into real projects.</p>
+          <p id="about-bottom-text">I'm Artham | Nurotul Ikrimah | RPL | SMKN 1 Lumajang 
+            — a student passionate about web development and gaming.
+            I love learning new things and turning creative ideas into real projects.</p>
         </div>
       </div>
 
       <div class="cards-row cards-landscape reveal-item">
         <div class="photo-card-3d">
           <div class="photo-card-inner">
-            <img src="assets/img/l1.jpg" alt="Landscape 1">
-            <div class="card-overlay">Adventure 1</div>
+            <img src="assets/img/l1.jpeg" alt="Landscape 1">
+            <div class="card-overlay">Ranu Pani</div>
           </div>
         </div>
         <div class="photo-card-3d">
           <div class="photo-card-inner">
-            <img src="assets/img/l2.jpg" alt="Landscape 2">
-            <div class="card-overlay">Adventure 2</div>
+            <img src="assets/img/l2.jpeg" alt="Landscape 2">
+            <div class="card-overlay">Taman</div>
           </div>
         </div>
         <div class="photo-card-3d">
           <div class="photo-card-inner">
-            <img src="assets/img/l3.jpg" alt="Landscape 3">
-            <div class="card-overlay">Adventure 3</div>
+            <img src="assets/img/l3.jpeg" alt="Landscape 3">
+            <div class="card-overlay">Bromo</div>
           </div>
         </div>
       </div>
@@ -332,23 +334,23 @@
     <div class="projects-grid">
       <div class="project-card reveal-item">
         <div class="project-media">
-          <img src="assets/img/p1.jpg" class="static-img" alt="Project 1">
+          <img src="assets/img/l1.jpg" class="static-img" alt="Project 1">
         </div>
         <div class="project-info">
-          <h3>Game Portfolio v1</h3>
-          <p>Website interaktif bertema RPG dengan sistem leveling sederhana.</p>
+          <h3>Ceritaku</h3>
+          <p>Website sederhana yang menyediakan cerita.</p>
           <div class="tags"><span>HTML</span> <span>CSS</span> <span>JS</span></div>
         </div>
       </div>
 
       <div class="project-card reveal-item">
         <div class="project-media">
-          <img src="assets/img/l1.jpg" class="static-img" alt="Project 2">
+          <img src="assets/img/l2.jpg" class="static-img" alt="Project 2">
         </div>
         <div class="project-info">
-          <h3>Landing Page Artham</h3>
-          <p>Desain minimalis untuk jasa pembuatan website landing page cepat.</p>
-          <div class="tags"><span>UI/UX</span> <span>Slicing</span></div>
+          <h3>Nihongo Master</h3>
+          <p>Website sederhana yang menyediakan pembelajaran bahasa jepang.</p>
+          <div class="tags"><span>HTML</span> <span>CSS</span> <span>JS</span></div>
         </div>
       </div>
     </div>
